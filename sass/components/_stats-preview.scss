@@ -5,6 +5,10 @@
   border: 1px solid black; //delete after
   width: 144rem;
 
+  &__alignment {
+    display: inline-block; //align info text and preview as in design
+  }
+
   &-info {
     padding: 6rem;
     background-color: $primary-dark;
@@ -24,10 +28,31 @@
 
     &-text {
       display: inline-block;
-      color: $neutral-white-transparent-2;
+      color: $neutral-white-transparent-1;
+      margin-bottom: 5rem;
 
       & span {
         display: block;
+      }
+    }
+
+    &-preview {
+      display: flex;
+      color: $neutral-white;
+      justify-content: space-between;
+
+      & span:first-of-type {
+        display: block;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 2.2rem;
+      }
+
+      & p:last-of-type {
+        display: block;
+        text-transform: uppercase;
+        color: $neutral-white-transparent-2;
+        font-size: 1.1rem;
       }
     }
   }

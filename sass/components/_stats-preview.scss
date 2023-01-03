@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  border: 1px solid black; //delete after
+
+  width: 144rem;
+
+  &-info {
+  }
+
+  &-img {
+    background-color: aqua; //delete after
+  }
+}

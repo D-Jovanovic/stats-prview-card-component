@@ -21,3 +21,12 @@ html {
 
 body {
   box-sizing: border-box; }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 144rem; }
+  .container-img {
+    background-color: aqua; }

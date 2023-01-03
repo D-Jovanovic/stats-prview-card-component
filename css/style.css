@@ -20,7 +20,8 @@ html {
   font-size: 62.5%; }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  line-height: 1.5; }
 
 .container {
   display: grid;
@@ -28,5 +29,22 @@ body {
   margin: 0 auto;
   border: 1px solid black;
   width: 144rem; }
+  .container-info {
+    padding: 6rem;
+    background-color: #1b1938; }
+    .container-info-header {
+      display: inline-block;
+      font-size: 3.6rem;
+      font-family: "Inter", sans-serif;
+      font-weight: 700;
+      color: white;
+      margin-bottom: 2rem; }
+      .container-info-header span {
+        color: #aa5cdb; }
+    .container-info-text {
+      display: inline-block;
+      color: rgba(255, 255, 255, 0.6); }
+      .container-info-text span {
+        display: block; }
   .container-img {
     background-color: aqua; }

@@ -1,9 +1,11 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  // grid-template-columns: 72rem 72rem;
   margin: 0 auto;
-  border: 1px solid black; //delete after
-  width: 144rem;
+  width: 120rem; //1440px its too musch
+  border-radius: 2rem;
+  overflow: hidden;
 
   &__alignment {
     display: inline-block; //align info text and preview as in design
@@ -58,6 +60,8 @@
   }
 
   &-img {
-    background-color: aqua; //delete after
+    box-shadow: inset 0 0 0 1000px rgba(170, 92, 219, 0.623);
+    background-image: url(/images/image-header-desktop.jpg);
+    background-size: cover;
   }
 }
